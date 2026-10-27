@@ -1,0 +1,80 @@
+body {
+    font-family: Arial;
+    background: #f2f6ff;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    width: 600px;
+    margin: auto;
+    background: white;
+    padding: 25px;
+    border-radius: 15px;
+    box-shadow: 0 0 10px #aaa;
+}
+
+h1 {
+    text-align: center;
+    color: #4b5cff;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+textarea {
+    height: 80px;
+    resize: none;
+}
+
+button {
+    margin-top: 10px;
+    padding: 10px 18px;
+    background: #4b5cff;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #2939d8;
+}
+
+.post {
+    margin-top: 15px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background: #fafafa;
+}
+
+.username {
+    font-weight: bold;
+    color: #4b5cff;
+}
+
+.postText {
+    color: #333;
+}
+
+.like {
+    background: #ff4d6d;
+}
+
+.comment {
+    background: #777;
+}
+
